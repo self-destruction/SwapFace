@@ -1,14 +1,20 @@
 # 🗿 SwapFace Colab Extended Edition
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Video_Colab_Edition.ipynb)  
-С помощью этого Google Colab блокнота ты можешь <b>в пару кликов</b> сделать дип-фейк видео. Для этого нужна YouTube-ссылка на видео и фотография лица, которое необходимо внедрить в видео. Для замены лица используется репозиторий [Swap-Mukham](https://github.com/harisreedhar/Swap-Mukham), но все возможные настройки перенесены в блокнот Google Colab.
 
-[![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-blue?logo=google-colab&logoColor=white)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Image_Colab_Edition.ipynb) - блокнот для замены лица на изображении, а не видео.  
+С помощью этого Google Colab блокнота ты можешь <b>в пару кликов</b> сделать дип-фейк видео. Для этого нужна YouTube-ссылка на видео и фотография лица, которое необходимо внедрить в видео. Для замены лица в [v1-блокноте](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Video_Colab_Edition.ipynb) используется репозиторий [Swap-Mukham](https://github.com/harisreedhar/Swap-Mukham). Для замены лица в [v2-блокноте](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Video_Colab_Edition_V2.ipynb) используется репозиторий [FaceFussion](https://github.com/facefusion/facefusion). Все возможные настройки перенесены в интерфейс Google Colab без использования Gradio.
+
+Swap-Mukham:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Video_Colab_Edition.ipynb) - блокнот для работы с видео.  
+[![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-blue?logo=google-colab&logoColor=white)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Image_Colab_Edition.ipynb) - блокнот для работы с изображением.  
+
+FaceFussion:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Video_Colab_Edition_V2.ipynb) - блокнот для работы с видео.  
+[![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-blue?logo=google-colab&logoColor=white)](https://colab.research.google.com/github/self-destruction/SwapFace/blob/main/SwapFace_Image_Colab_Edition_V2.ipynb) - блокнот для работы с изображением.  
 
 ## 💪 Как работает
 
 ### Установка и подготовка
 
-Устанавливаем [Swap-Mukham](https://github.com/harisreedhar/Swap-Mukham), загружаем все модели, исправляем код для оптимальной работы на облачных вычислителях.
+Устанавливаем репозиторий, загружаем все модели, исправляем код для оптимальной работы на облачных вычислителях.
 
 ### Загрузка исходных данных
 
